@@ -9,7 +9,6 @@ import Contact from './comps/pages/Contact';
 import Home from './comps/pages/Home';
 import How from './comps/pages/How';
 import Pro from './comps/pages/Pro';
-import App from './App';
 ReactDOM.render(
   <div className="page"style={{overflowX:'hidden'}}>
     <div className="wrapper">
