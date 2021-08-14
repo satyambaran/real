@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+	font-family: 'first';
+	src: url('./Fonts/blairitc-tt-light.ttf');
+  }
+  @font-face {
+    font-family: 'second';
+    src: url('./Fonts/Campton-Book.otf');
+    }
+    @font-face {
+      font-family: 'third';
+      src: url('./Fonts/Campton-Medium.otf');
+      }
+      @font-face {
+        font-family: 'fourth';
+        src: url('./Fonts/blair-itc-medium-6946.ttf');
+        }
+        .appnav{background: rgba(0, 0, 0, 0.1);height: 80px;}
