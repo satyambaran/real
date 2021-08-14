@@ -1,0 +1,43 @@
+  .card{
+    padding: -10px 0 0 0;
+    background-color: #e0e7e460;
+  }
+  .cardcontainer {	
+    max-width: 1800px;
+    padding: 50px 0;
+    margin: auto;
+  }
+  .cardcontainer h1 {
+    text-align: center;
+    font-family: 'Fourth';
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgb(66, 66, 90);
+  }
+  .cardpackage{
+    width: 50%;
+    display: flex;
+    color: rgb(158, 42, 86);
+    width:'320px';
+    /* justify-content: space-between; */
+  }
+  .cardwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-left: 18%;
+  }
+  .cardimg {
+    transition: all 0.2s linear;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+  }
+  
+  .cardimg:hover {
+    transform: scale(1.1);
+  }
+  .cardtext p{
+    font-family: 'third';
+  }

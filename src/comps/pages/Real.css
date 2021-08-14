@@ -1,0 +1,52 @@
+.real{
+	padding: 30px 0;
+    background-color: #e0e7e460;
+    /* padding-top: 3em;
+	position: relative;
+	bottom: 0; */
+	width: 100%;
+}
+.realcontainer{
+	padding: 30px 0;
+	margin: auto;
+	/* background-color: #e0e7e460; */
+	max-width: 1800px;
+}
+
+.realcontainer h1{
+	margin-left: 45%;
+	font-family: 'first';
+    color: rgb(0, 23, 87);
+}
+.realcontainer h4{
+	font-family: 'second';
+	margin-top: 30px;
+}
+.realcontent{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+	left: 20px;
+}
+.realpackage{
+	width: 33%;
+	padding: 10px 50px;
+}
+.realpackage h4{
+	font-size: 24px;
+	color: rgb(158, 42, 86);
+	margin-bottom: 10px;
+	font-weight: 500;
+	position: relative;
+    align-items: center;
+}
+/* .realpackage h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #ff0055;
+	height: 2px;
+	box-sizing: border-box;
+	width: 80px;
+} */

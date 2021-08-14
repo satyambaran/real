@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+.footer{
+	padding: 70px 0;
+	background-color: #e0e7e4;
+    /* padding-top: 3em;
+	position: relative;
+	bottom: 0; */
+	/* width: 100%; */
+}
+.container{
+	max-width: 1500px;
+	/* background-color: red; */
+	margin: auto;
+}
+.col{
+	width: 25%;
+	padding: 0 15px;
+}
+.col ul{
+	list-style: none;
+}
+.col h4{
+	font-size: 26px;
+	font-family: 'fourth';
+	color: rgb(0, 0, 0);
+	margin-bottom: 30px;
+	font-weight: 500;
+	position: relative;
+}
+.col h4::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	background-color: #ff0055;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.col ul li a{
+	font-size: 20px;
+	/* font-family: 'first'; */
+	font-family: 'second';
+    color: rgb(158, 42, 86);
+	/* font-family: 'third'; */
+}
+.col ul li a:link{
+	text-decoration: none;
+}
+.col ul li a:hover{
+	text-decoration: none;
+	color: blue;
+	padding-left: 4px;
+	transition: all 0.5s ease;
+}
+.col ul li a:active{
+	text-decoration: none;
+	color: red;
+}
+.container p{
+	font-family: 'first';
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.sociallink{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #000;
+	transition: all 0.5s ease;
+}
+.sociallink:hover{
+	color: #24262b;
+	background-color: #919191;
+}

@@ -1,0 +1,12 @@
+
+<div className='bars'>
+    {Array.from({length:length}).map((item,i)=>{
+        return(
+            <div key={i} className={i===this.state.current?'bar active':'bar'} onClick={()=>{this.setState({current:i})}}/>
+        )
+    })}
+</div>
+
+{i===this.state.current&&(<img src={image.image} alt='img' className='leftimage'/>)}
+{i===this.state.current&&(<img src={image.image} alt='img' className='centerimage'/>)}
+{i===this.state.current&&(<img src={image.image} alt='img' className='rightimage'/>)}

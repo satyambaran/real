@@ -1,0 +1,39 @@
+.pro{
+	padding: 70px 0;
+    background-color: #e0e7e460;
+}
+.procontainer{	
+    max-width: 100%;
+	margin: auto;
+}
+.prorow{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
+}
+.prorow ul{
+	list-style: none;
+}
+.procol{
+	width: 100%;
+}
+.procol h1{
+	font-size: 24px;
+	font-family: 'fourth';
+	font-weight: 500;
+	margin-left: 45%;
+}
+.prolist{
+    max-width: 1000px;
+    padding: 0 30px;
+    align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 50px;    
+}
+.prolist li{
+    padding: 0 30px;  
+	font-family: 'second';
+	font-size: 20px;
+    color: rgb(158, 42, 86);
+}
