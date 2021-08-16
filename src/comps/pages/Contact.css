@@ -10,18 +10,15 @@
 }
 
 .content{
-	width: 25%;
+	width: 45%;
 	padding: 30px 70px;
 }
-.content h4{
-	font-family: 'first';
-	font-size: 24px;
-    color: rgb(23, 23, 87);
-	font-weight: bold;
-	margin-bottom: 30px;
-	left: 20%;
-	font-weight: 500;
-	position: relative;
+.container h1{
+    text-align: center;
+    font-family: 'Fourth';
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgb(66, 66, 90);
 }
 /* .content h4::before{
 	content: '';
@@ -42,11 +39,38 @@
 	display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
-	margin-bottom: 50px;
 }
 
 .video{
     background-color: black;
     width: 600px;
-    height: 350px;
+    height: 360px;
+}
+
+@media screen and (max-width:1350px) {
+	.video{
+		background-color: black;
+		width: 500px;
+		height: 300px;
+	}
+}
+@media screen and (max-width:900px) {
+	.content{
+		width:100%;
+		padding: 0 0;
+	}
+	.video{
+		margin-left: -10%;
+	}
+	.deatils{
+		display: unset;
+		flex-wrap: unset;
+		justify-content: unset;
+	}
+}
+@media screen and (max-width:600px){
+	.video{
+		width: 400px;
+		height: 240px;
+	}
 }

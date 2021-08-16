@@ -29,15 +29,15 @@ export default class navbar extends Component {
     changeNavbar=()=>{
         if(window.scrollY<1150){
             this.setState({navbar:true});
-            console.log('satyam')
+            // console.log('satyam')
         }else{
             this.setState({navbar:false});
-            console.log('sam')
+            // console.log('sam')
         }
     }
     componentDidMount() {
         window.addEventListener('scroll', this.changeNavbar);
-        console.log(this.state.navbar);
+        // console.log(this.state.navbar);
     }
     // onOpenSignUp=()=>{
     //     this.setState({signup:true})
@@ -55,7 +55,7 @@ export default class navbar extends Component {
         return(
             <div>
                 <header className={this.state.navbar?'headernav':'headernav active'}>
-                    <a className="logo" href="/"><img src={Image} style={{height: "80px",marginLeft:'20%'}} alt="logo"/></a>
+                    <a href="/"><img src={Image}  alt="logo"/></a>
                     <nav>
                         <ul className={this.state.clicked?'navmenu active':'navmenu'}>
                             {navitems.map((item,i)=>{

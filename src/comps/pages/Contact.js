@@ -8,9 +8,9 @@ export default class Home extends Component {
         return (
             <div className='plain' >
             <div className='container'>
+            <h1 style={{marginLeft:'10%', marginRight:'10%'}}>What's in it?</h1>  
                 <div className="details">
                     <div className="content">
-                        <h4>What's in it?</h4>
                         <ul className="clist">
                             <li>Shot Placement</li> 
                             <li>Field length</li>

@@ -40,13 +40,14 @@
 	position: relative;
     align-items: center;
 }
-/* .realpackage h4::before{
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: -10px;
-	background-color: #ff0055;
-	height: 2px;
-	box-sizing: border-box;
-	width: 80px;
-} */
+@media screen and (max-width:600px) {
+	.realcontainer h1{
+		margin-left:35%;
+	}
+	.realcontent{
+		display: unset;
+	}
+	.realpackage{
+		width: 100%;
+	}
+}

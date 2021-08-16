@@ -4,7 +4,7 @@
   }
   .cardcontainer {	
     max-width: 1800px;
-    padding: 50px 0;
+    padding: 5px 0;
     margin: auto;
   }
   .cardcontainer h1 {
@@ -15,10 +15,8 @@
     color: rgb(66, 66, 90);
   }
   .cardpackage{
-    width: 50%;
     display: flex;
     color: rgb(158, 42, 86);
-    width:'320px';
     /* justify-content: space-between; */
   }
   .cardwrapper{
@@ -32,12 +30,22 @@
     border-radius: 10px;
     width: 30px;
     height: 30px;
-    margin: 10px 20px;
+    margin: 15px 20px;
   }
   
   .cardimg:hover {
     transform: scale(1.1);
   }
-  .cardtext p{
+  .cardtext{    
+    width:'320px';
     font-family: 'third';
+  }
+  @media screen and (max-width: 900px) {
+    /* .cardspace{
+      height:60px;
+    } */
+    .cardwrapper{
+      margin-bottom: 0;
+      padding-left: 5%;
+    }
   }

@@ -9,23 +9,23 @@ export default class Pro extends Component {
             <div className="pro" >
                 <div className="procontainer">
                     <div className="prorow">
-                        <div className="procol">
+                        <div className="procol2">
                             <h1>Become a Pro</h1>
                         </div>
-                        <div style={{marginLeft:'30%',marginTop:'30px'}}>
-                            <ul className="prolist">
-                                <li>Shot Tracking</li>
+                        <div className="procol" >
+                            <ul>
                                 <li>Video Analysis</li>
                                 <li>Smart Coaching</li>
                                 <li>Match Analysis</li>
+                                <li>AI Shot Tracking</li>
                             </ul>
                         </div>
                     </div>
                     <div className="prorow">
-                        <img src={Image} style={{width:'70%', height:'250px',marginLeft:'15%',borderRadius:'10px'}} alt=' 'className="proimg" />
+                        <img src={Image}  alt=' 'className="proimg" />
                     </div>
                     <div className="prorow">
-                        <img src={Image} style={{width:'70%', height:'250px',marginLeft:'15%',borderRadius:'10px'}} alt=''className="proimg" />
+                        <img src={Image}  alt=''className="proimg" />
                     </div>
                 </div>
             </div>

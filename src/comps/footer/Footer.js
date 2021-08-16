@@ -13,8 +13,6 @@ export default class Footer extends Component {
                                 <li><a href="/">About Us</a></li>
                                 <li><a href="/">Our Services</a></li>
                                 <li><a href="/">Privacy Policy</a></li>
-                                <li><a href="/">ABCDEFGHIJKLMNOPQRSTUVWXYZ</a></li>
-                                <li><a href="/">abcdefghijklmnopqrstuvwxyz</a></li>
                             </ul>
                         </div>
                         <div className="col">

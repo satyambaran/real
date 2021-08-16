@@ -68,7 +68,7 @@
 .row{
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 }
 .sociallink{
 	display: inline-block;
@@ -84,4 +84,12 @@
 .sociallink:hover{
 	color: #24262b;
 	background-color: #919191;
+}
+@media screen and (max-width:900px) {
+	.row{
+		display: unset;
+	}
+	.col{
+		width: 100%;
+	}
 }

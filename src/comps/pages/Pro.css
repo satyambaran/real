@@ -14,26 +14,45 @@
 .prorow ul{
 	list-style: none;
 }
-.procol{
+.procol2{
 	width: 100%;
 }
-.procol h1{
-	font-size: 24px;
-	font-family: 'fourth';
-	font-weight: 500;
-	margin-left: 45%;
+.procol2 h1{
+    text-align: center;
+    font-family: 'Fourth';
+    font-weight: 500;
+    color: rgb(66, 66, 90);
 }
-.prolist{
-    max-width: 1000px;
+.procol{
+	margin-left:28vw;
+	margin-top:10px;
+}
+.procol ul{
     padding: 0 30px;
     align-items: center;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 50px;    
+	margin-bottom: -10px;    
 }
-.prolist li{
-    padding: 0 30px;  
+.procol ul li{
+    padding: 0 40px; 
+	margin-left: -50px; 
 	font-family: 'second';
 	font-size: 20px;
     color: rgb(158, 42, 86);
+}
+.prorow img{
+	width: 80%;
+	height: 12.5vw;
+	border-radius: 10px;
+	margin-left: 10%;
+	/* style={{width:'70%', height:'250px',marginLeft:'15%',borderRadius:'10px'}} */
+}
+@media screen and (max-width:900) {
+	.procol ul{
+		flex-direction: column;
+	}
+	.procol ul li{
+		margin-right: 30px;
+	}
 }
