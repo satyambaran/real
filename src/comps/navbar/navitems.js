@@ -6,23 +6,35 @@ const navitems=[
         id:'home'
     },
     {
-        name:'How',
-        url:'#how',
+        name:'Player',
+        url:'#player',
         classname:'navlinks',
-        id:'how'
+        id:'player'
     },
     {
-        name:'Contact',
+        name:'Coach',
+        url:'#coach',
+        classname:'navlinks',
+        id:'coach'
+    },
+    {
+        name:'Academy',
+        url:'#academy',
+        classname:'navlinks',
+        id:'academy'
+    },
+    {
+        name:'Contact Us',
         url:'#contact',
         classname:'navlinks',
         id:'contact'
     },
-    {
-        name:'About',
-        url:'#about',
-        classname:'navlinks',
-        id:'about'
-    },
+    // {
+    //     name:'About',
+    //     url:'#about',
+    //     classname:'navlinks',
+    //     id:'about'
+    // },
     // {
     //     name:'Login',
     //     url:'#login',

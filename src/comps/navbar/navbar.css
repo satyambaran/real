@@ -13,9 +13,13 @@
 .headernav.active{
     background: rgb(225, 225, 225);
 }
+.hidelogo{
+  display: none;
+}
 .headernav a img{
   margin-left:20%;
-  height: 80px;
+  margin-top: 5px;
+  height: 60px;
 }
 .navmenu {
   list-style: none;

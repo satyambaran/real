@@ -1,0 +1,76 @@
+.athlete{
+	padding: 70px 0;
+	background-color: #e0e7e460;
+}
+.athletecontainer{
+    max-width: 80vw;
+    margin: auto;
+}
+.athletecontainer h1{
+    text-align: center;
+    font-family: 'fourth';
+    font-weight: 500;
+    margin:2vh 15vw;
+    color: #271A65;
+}
+.athleterow{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 14vw;
+	margin-bottom: 1vh;
+}
+.athcard {
+  width: 10vw;
+  height: 10vw;
+  margin: 0 1.5vw;
+  cursor: pointer;
+}
+.athcardcontent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform-style: preserve-3d;
+  transition: all 1.5s ease-in-out;
+}
+.athcard:hover .athcardcontent {
+  transform: rotateY(180deg);
+}
+.athcardfront, .athcardback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.athcardfront {
+	background: linear-gradient(to bottom,#ff612d 0%,#ff2955 15%,#ff1364 45%,#580dbf 100%);
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+.athcardfront2 {
+  width: 9.5vw;
+  height: 9.5vw;
+  background: #f7f7f7;
+  transform:translate(5px,5px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;  
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.athcardfront2 h1{
+  color: #ac088a;
+  font-family: 'second';
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.athcardback {
+  background-color: transparent;
+  color: #ac088a;
+  font-size: .8vw;
+  font-family: 'second';
+  transform: rotateY(180deg);
+}

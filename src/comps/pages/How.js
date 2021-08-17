@@ -1,7 +1,10 @@
 // import react
 import React, { Component } from 'react';
 import './How.css';
-import Image from '../../images/download.png'
+import Image from '../../images/stadium.png'
+import Image1 from '../../images/subscription.png'
+import Image2 from '../../images/AI.png'
+import Image3 from '../../images/videos.png'
 
 export default class How extends Component {
     render(){
@@ -14,20 +17,23 @@ export default class How extends Component {
                             <img className='cardimg' alt='' src={Image} />
                             <p className='cardtext' style={{width:'320px'}}>Connect with world class smart grounds, athletes and coaches.</p>
                         </div>
+                        <div>
+
+                        </div>
                         <div className='cardspace'></div>
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image} />
+                            <img className='cardimg' alt='' src={Image1} />
                             <p className='cardtext'style={{width:'320px'}}>One subscription to manage all activities for multiple sports.</p>
                         </div>
                     </div>
                     <div className="cardwrapper">
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image} />
+                            <img className='cardimg' alt='' src={Image2} />
                             <p className='cardtext' style={{width:'320px'}}>Track and improve personal AI by analysing, sharing and comparing fitness, skills and performance data.</p>
                         </div>
                         <div className='cardspace'></div>
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image} />
+                            <img className='cardimg' alt='' src={Image3} />
                             <p className='cardtext' style={{width:'320px'}}>Access to a library of personalised videos for review and analysis.</p>
                         </div>
                     </div>

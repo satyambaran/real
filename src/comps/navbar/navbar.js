@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Image from "../../images/cropped.png";
+import Image2 from "../../images/logo.png";
 import './navbar.css';
 import navitems from './navitems';
 export default class navbar extends Component {
@@ -55,7 +56,8 @@ export default class navbar extends Component {
         return(
             <div>
                 <header className={this.state.navbar?'headernav':'headernav active'}>
-                    <a href="/"><img src={Image}  alt="logo"/></a>
+                    <a className={this.state.navbar?'hidelogo':'showlogo'} href="/"><img src={Image}   alt="logo"/></a>
+                    <a className={this.state.navbar?'showlogo':'hidelogo'} href="/"><img src={Image2}  alt="logo"/></a>
                     <nav>
                         <ul className={this.state.clicked?'navmenu active':'navmenu'}>
                             {navitems.map((item,i)=>{

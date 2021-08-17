@@ -12,18 +12,18 @@
     font-family: 'Fourth';
     font-weight: 500;
     margin-bottom: 30px;
-    color: rgb(66, 66, 90);
+    color: #271A65;
   }
   .cardpackage{
     display: flex;
-    color: rgb(158, 42, 86);
-    /* justify-content: space-between; */
+    color: #ac088a;
+    margin-left: 15vw;
   }
   .cardwrapper{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    padding-left: 18%;
+    padding-left: 1%;
   }
   .cardimg {
     transition: all 0.2s linear;
@@ -33,12 +33,14 @@
     margin: 15px 20px;
   }
   
-  .cardimg:hover {
+  /* .cardimg:hover {
     transform: scale(1.1);
-  }
+  } */
   .cardtext{    
     width:'320px';
     font-family: 'third';
+    justify-content: center;
+    align-items: center;
   }
   @media screen and (max-width: 900px) {
     /* .cardspace{
