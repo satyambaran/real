@@ -6,23 +6,29 @@ const navitems=[
         id:'home'
     },
     {
-        name:'Player',
-        url:'#player',
+        name:'Services',
+        url:'#services',
         classname:'navlinks',
-        id:'player'
+        id:'services'
     },
-    {
-        name:'Coach',
-        url:'#coach',
-        classname:'navlinks',
-        id:'coach'
-    },
-    {
-        name:'Academy',
-        url:'#academy',
-        classname:'navlinks',
-        id:'academy'
-    },
+    // {
+    //     name:'Player',
+    //     url:'#player',
+    //     classname:'navlinks',
+    //     id:'player'
+    // },
+    // {
+    //     name:'Coach',
+    //     url:'#coach',
+    //     classname:'navlinks',
+    //     id:'coach'
+    // },
+    // {
+    //     name:'Academy',
+    //     url:'#academy',
+    //     classname:'navlinks',
+    //     id:'academy'
+    // },
     {
         name:'Contact Us',
         url:'#contact',

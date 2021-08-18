@@ -14,27 +14,24 @@ export default class How extends Component {
                     <h1 style={{marginLeft:'10%', marginRight:'10%'}}>Automated Analysis using Machine Learning</h1>
                     <div className="cardwrapper">
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image} />
-                            <p className='cardtext' style={{width:'320px'}}>Connect with world class smart grounds, athletes and coaches.</p>
+                            <img  alt='' src={Image} />
+                            <p className='cardtext' style={{width:'280px'}}>Connect with world class smart grounds, athletes and coaches.</p>
                         </div>
-                        <div>
 
-                        </div>
-                        <div className='cardspace'></div>
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image1} />
-                            <p className='cardtext'style={{width:'320px'}}>One subscription to manage all activities for multiple sports.</p>
+                            <img alt='' src={Image1} />
+                            <p className='cardtext'style={{width:'280px'}}>One subscription to manage all activities for multiple sports.</p>
                         </div>
                     </div>
                     <div className="cardwrapper">
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image2} />
-                            <p className='cardtext' style={{width:'320px'}}>Track and improve personal AI by analysing, sharing and comparing fitness, skills and performance data.</p>
+                            <img alt='' src={Image2} />
+                            <p className='cardtext' style={{width:'280px'}}>Track and improve personal AI by analysing, sharing and comparing fitness, skills and performance data.</p>
                         </div>
-                        <div className='cardspace'></div>
+
                         <div className="cardpackage">
-                            <img className='cardimg' alt='' src={Image3} />
-                            <p className='cardtext' style={{width:'320px'}}>Access to a library of personalised videos for review and analysis.</p>
+                            <img alt='' src={Image3} />
+                            <p className='cardtext' style={{width:'280px'}}>Access to a library of personalised videos for review and analysis.</p>
                         </div>
                     </div>
                 </div>

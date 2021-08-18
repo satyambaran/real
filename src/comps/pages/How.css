@@ -14,18 +14,20 @@
     margin-bottom: 30px;
     color: #271A65;
   }
-  .cardpackage{
-    display: flex;
-    color: #ac088a;
-    margin-left: 15vw;
-  }
   .cardwrapper{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 50px;
     padding-left: 1%;
   }
-  .cardimg {
+  .cardpackage{
+    display: flex;
+    color: #ac088a;
+    margin-left: 15vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardpackage img {
     transition: all 0.2s linear;
     border-radius: 10px;
     width: 30px;
@@ -49,5 +51,35 @@
     .cardwrapper{
       margin-bottom: 0;
       padding-left: 5%;
+    }
+  }
+  @media screen and (max-width:420px){
+    .card{
+      padding: 1vh 0;
+      background-color: #e0e7e460;
+      width: 100%;
+    }
+    .cardcontainer h1{
+      align-items: center;
+      margin-bottom: 0;
+      font-family: 'first';
+      font-size: 1rem;
+      color: rgb(0, 23, 87);
+    }
+    .cardpackage{
+      margin-left: -20px;
+      font-size: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    .cardpackage h4{
+      color: #ac088a;
+      font-weight: 500;
+      position: unset;
+      align-items: unset;
+    }
+    .cardpackage img{
+      width: 20px;
+      height: 20px;
     }
   }

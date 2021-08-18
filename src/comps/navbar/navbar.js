@@ -28,30 +28,15 @@ export default class navbar extends Component {
         }
     }
     changeNavbar=()=>{
-        if(window.scrollY<1150){
+        if(window.scrollY<window.innerHeight/4){
             this.setState({navbar:true});
-            // console.log('satyam')
         }else{
             this.setState({navbar:false});
-            // console.log('sam')
         }
     }
     componentDidMount() {
         window.addEventListener('scroll', this.changeNavbar);
-        // console.log(this.state.navbar);
     }
-    // onOpenSignUp=()=>{
-    //     this.setState({signup:true})
-    // }
-    // onOpenLogIn=()=>{
-    //     this.setState({login:true})
-    // }
-    // onCloseSignUp=()=>{
-    //     this.setState({signup:false})
-    // }
-    // onCloseLogIn=()=>{
-    //     this.setState({login:false})
-    // }
     render() {
         return(
             <div>

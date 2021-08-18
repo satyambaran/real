@@ -10,6 +10,9 @@ import Home from './comps/pages/Home';
 import How from './comps/pages/How';
 import Pro from './comps/pages/Pro';
 import Athlete from './comps/pages/Athlete';
+import Coach from './comps/pages/Coach';
+import Academy from './comps/pages/Academy';
+import Services from './comps/pages/Services';
 ReactDOM.render(
   <div className="page"style={{overflowX:'hidden'}}>
     <div className="wrapper">
@@ -19,7 +22,10 @@ ReactDOM.render(
         <div id="real"><Real/></div>
         <div  id="how"> <How/> </div>
         <div  id="contact"> <Contact/> </div>
-        <div id="athlete"><Athlete/></div>
+        <div id="services"><Services/></div>
+        {/* <div id="athlete"><Athlete/></div>
+        <div id="coach"><Coach/></div>
+        <div id="academy"><Academy/></div> */}
         <div id="pro"><Pro/></div>
       </Router>
     </div>

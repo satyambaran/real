@@ -1,0 +1,17 @@
+.homebanner{
+    position: relative;
+    width: 100%;
+}
+.homephone{
+    position: absolute;
+    width: 21.1vw;
+    top:15.42vh;
+    right: 39.34vw;
+    /* position: relative;
+    top: -90.9vh;
+    right: -55.6vw; */
+    transform:rotate(14.7deg);
+}
+.homephone:hover{
+    transform: rotate(14.7deg) scale(1.05);
+}

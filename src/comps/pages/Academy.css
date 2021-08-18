@@ -1,0 +1,21 @@
+.academy{    
+    padding: -10px 0 0 0;
+}
+.academycontainer{
+    max-width: 50vw;
+    margin: auto;
+}
+.academy h1{
+    text-align: center;
+    font-family: 'Fourth';
+    font-weight: 500;
+    margin: 20px 0;
+    color: #271A65;
+}
+.academy p{
+    text-align: center;
+    font-family: 'second';
+    font-size: 1.2rem;
+    color: #ac088a;
+    font-weight: 500;
+}

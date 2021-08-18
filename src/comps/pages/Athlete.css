@@ -1,6 +1,5 @@
 .athlete{
-	padding: 70px 0;
-	background-color: #e0e7e460;
+	padding: 10px 0;
 }
 .athletecontainer{
     max-width: 80vw;
@@ -9,7 +8,6 @@
 .athletecontainer h1{
     text-align: center;
     font-family: 'fourth';
-    font-weight: 500;
     margin:2vh 15vw;
     color: #271A65;
 }
@@ -45,7 +43,7 @@
 }
 .athcardfront {
 	background: linear-gradient(to bottom,#ff612d 0%,#ff2955 15%,#ff1364 45%,#580dbf 100%);
-  border-radius: 10px;
+  border-radius: 5px;
   transform-style: preserve-3d;
 }
 .athcardfront2 {
@@ -55,13 +53,12 @@
   transform:translate(5px,5px);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;  
-  border-radius: 10px;
-
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.athcardfront2 h1{
+.athcardfront2 h2{
   color: #ac088a;
   font-family: 'second';
   font-size: 1.2vw;
@@ -73,4 +70,39 @@
   font-size: .8vw;
   font-family: 'second';
   transform: rotateY(180deg);
+}
+@media screen and (max-width:420px) {
+  .athletecontainer{
+    max-width: 100vw;
+  } 
+  .athletecontainer h1{
+    font-family: 'first';
+    margin-bottom:.5vh ;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .athleterow{
+    margin-left: 6.5vw;    
+  }
+  .athcard {
+    width: 21vw;
+    height: 21vw;
+    margin: 0 .5vw;
+  }
+  .athcardfront2 {
+    width: 20vw;
+    height: 20vw;
+    transform:translate(.5vw,.5vw);
+    border-radius: 5px;
+  }
+  .athcardfront2 h2{
+    font-size: 2.6vw;
+  }
+  .athcardback{
+    margin-top: -10px;
+    font-size: 1.7vw;
+  }
+  .athcardback h4{
+    margin-top: -15px;
+  }
 }

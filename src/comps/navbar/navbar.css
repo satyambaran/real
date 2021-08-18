@@ -11,15 +11,14 @@
   transition: all .5s ease-out;
 }
 .headernav.active{
-    background: rgb(225, 225, 225);
+    background:  #e0e7e49d;
 }
 .hidelogo{
   display: none;
 }
 .headernav a img{
   margin-left:20%;
-  margin-top: 5px;
-  height: 60px;
+  height: 6vh;
 }
 .navmenu {
   list-style: none;
@@ -65,14 +64,11 @@
 .fa-bars {
   margin-right:5px ;
   font-size: 1.2rem;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   opacity: .5;
 }
 @media screen and (max-width: 900px) {
-  .headernav a img{
-    margin-left:10%;
-    height: 60px;
-  }
+  
   .navmenu {
     flex-direction: column;
     width: 100vw;
@@ -103,7 +99,7 @@
 
   .navlinks {
     display: table;
-    margin-left: 200px;
+    /* margin-left: 200px; */
     width: 100%;
     color:black;
   }
@@ -113,7 +109,7 @@
     position: relative;
     top: -5px;
     right: 20px;
-    font-size: 40px;
+    font-size: 4.5vh;
     cursor: pointer;
   }
 
@@ -121,6 +117,27 @@
     margin-right:5px ;
     color: #000;
     font-size: 1.2rem;
+    opacity: .6;
     z-index: 999;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .headernav{
+    height: 3vh;
+  }
+  .headernav a img{
+    height: 3vh;
+  }
+  .menuicon {
+    top: -2.6vh;
+    right: 1vw;
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    font-size: 1rem;
+    color: aliceblue;
+    opacity: .5;
   }
 }

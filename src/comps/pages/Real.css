@@ -1,5 +1,5 @@
 .real{
-	padding: 30px 0;
+	padding: 3vh 0;
     background-color: #e0e7e460;
     /* padding-top: 3em;
 	position: relative;
@@ -7,16 +7,17 @@
 	width: 100%;
 }
 .realcontainer{
-	padding: 30px 0;
 	margin: auto;
 	/* background-color: #e0e7e460; */
 	max-width: 1800px;
 }
 
 .realcontainer h1{
-	margin-left: 45%;
-	font-family: 'first';
-    color: rgb(0, 23, 87);
+    text-align: center;
+    font-family: 'Fourth';
+    font-weight: 500;
+    margin-bottom: -10px;
+    color: #271A65;
 }
 .realcontainer h4{
 	font-family: 'second';
@@ -25,8 +26,6 @@
 .realcontent{
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 50px;
-	left: 20px;
 }
 .realpackage{
 	width: 33%;
@@ -36,9 +35,16 @@
 	font-size: 24px;
 	color: #ac088a;
 	margin-bottom: 10px;
+	margin-left: 30%;
 	font-weight: 500;
 	position: relative;
     align-items: center;
+}
+.realpackage img{
+	margin-left:10%;
+	border-radius:15px;
+	width:350px;
+	height:220px;
 }
 @media screen and (max-width:600px) {
 	.realcontainer h1{
@@ -50,4 +56,36 @@
 	.realpackage{
 		width: 100%;
 	}
+}
+@media screen and (max-width:420px){
+.real{
+	padding: 1vh 0;
+	background-color: #e0e7e460;
+	width: 100%;
+}
+.realcontainer h1{
+	align-items: center;
+	font-family: 'first';
+	font-size: 1rem;
+    color: rgb(0, 23, 87);
+}
+.realpackage{
+	margin-top: -20px;
+	width: 100%;
+}
+.realpackage h4{
+	align-items: center;
+	font-size: 1rem;
+	color: #ac088a;
+	font-weight: 500;
+	position: unset;
+	align-items: unset;
+}
+.realpackage img{
+	margin-left: 5%;
+	margin-top: -10px;
+	border-radius:5px;
+	width:250px;
+	height:157px;
+}
 }

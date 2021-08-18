@@ -16,7 +16,7 @@ export default class Athlete extends Component {
                                         
                                         <div class="athcardfront">
                                             <div class="athcardfront2">
-                                                <h1 style={{margin:'40px 10px'}}>{item.front}</h1>
+                                                <h2>{item.front}</h2>
                                             </div>
                                         </div>
                                         <div class="athcardback">
@@ -37,7 +37,7 @@ export default class Athlete extends Component {
                                         
                                         <div class="athcardfront">
                                             <div class="athcardfront2">
-                                                <h1 style={{margin:'40px 10px'}}>{item.front}</h1>
+                                                <h2>{item.front}</h2>
                                             </div>
                                         </div>
                                         <div class="athcardback">

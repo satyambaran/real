@@ -85,11 +85,24 @@
 	color: #24262b;
 	background-color: #919191;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:420px) {
+	.footer{
+		padding: 10px 0;
+	}
 	.footerrow{
 		display: unset;
 	}
 	.footercol{
 		width: 100%;
+	}
+	.footercol h4{
+		font-size: 1.2rem;
+		margin-bottom: 15px;
+		font-weight: 500;
+	}
+	.footercol ul{
+		margin-bottom: 15px;
+	}.footercol ul li a{
+		font-size: 1rem;
 	}
 }
